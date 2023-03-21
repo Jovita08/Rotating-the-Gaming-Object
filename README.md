@@ -38,6 +38,42 @@ Stop
 
 ## Program:
 
+```py
+# DEVELOPED BY:- VIRGIL JOVITA.A
+# REG NO:- 212221240062
+
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class code : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.right, Vector3.up, 40 * Time.deltaTime);
+    }
+}
+
+```
+
+
 ## Output:
 
+Before Rotation:-
+
+![OUTPUT](1.png)
+
+After Rotation:-
+
+![OUTPUT](2.png)
+
 ## Result:
+Thus a 3D application for rotating the gaming objects in unity is developed sucessfully.
